@@ -1,0 +1,77 @@
+                                        14-8-2022
+
+Main.java
+                                                                                           
+public class Main {
+public static void main(String[]args) {
+	Student ob=new Student();
+	ob.name="HISHAM";
+	ob.id="213-15-4270";
+	ob.age=22;
+	ob.display();
+}
+}
+
+Student.java
+
+public class Student {
+String name,id;
+int age;
+void display() {
+	System.out.println(name);
+	System.out.println(id);
+	System.out.println(age);
+}
+}
+                        
+                                                            21-8-2022
+
+Main.java:-
+
+public class Main {
+public static void main(String[]args){
+	Teacher t1= new Teacher("HISHAM","CSE",22);
+	t1.display();
+}
+}
+
+Teacher.java:-
+
+public class Teacher {
+String name,dept;
+int age;
+Teacher(String n,String d,int a){
+	name=n;
+	dept=d;
+	age=a;
+}
+void display() {
+	System.out.println("Name is:- "+name);
+	System.out.println("Depaartment:- "+dept);
+	System.out.println("Age is:- "+age);
+}
+}
+
+                                                     28-8-2022
+
+Test.java
+........................
+public class Test{
+    int square1(){
+        return 3*3;
+    }
+    int square2(int n){
+        return n+n;
+    }
+}
+
+Main.java
+.................................
+public class Main
+{
+	public static void main(String[] args) {
+	Test a=new Test();
+	System.out.println(a.square1());
+	System.out.println(a.square2(5));
+	}
+}
