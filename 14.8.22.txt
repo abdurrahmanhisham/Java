@@ -1,5 +1,5 @@
                                                                     OOP LAB 
-FIRST CLSSS:-
+creating basic classes, attributes, objects and methods
 .............................
 
 Main.java
