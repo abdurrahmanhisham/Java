@@ -1,5 +1,7 @@
-Main.java
-                                                                                           
+                                                        //CLASS,ATTRIBUTE,OBJECT,METHOD,
+
+
+Main.java                                                                                          
 public class Main {
 public static void main(String[]args) {
 	Student ob=new Student();
@@ -11,7 +13,6 @@ public static void main(String[]args) {
 }
 
 Student.java
-
 public class Student {
 String name,id;
 int age;
