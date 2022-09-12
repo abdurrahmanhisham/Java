@@ -1,6 +1,5 @@
                                             //MATH CLASS FUNCTION
                                             
-                                                //MATH
 
 public class Test {
 public static void main(String[]args) {
