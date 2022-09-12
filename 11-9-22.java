@@ -1,4 +1,4 @@
-//scanner Sum
+                                                       //scanner 
 
 import java.util.Scanner;
 public class Sum {
@@ -12,7 +12,7 @@ public static void main(String[]args) {
 }
 }
 
-//scanner product
+                                                     //scanner product
 
 import java.util.Scanner;
 public class Sum {
@@ -27,6 +27,8 @@ public static void main(String[]args) {
 	System.out.println("The product of three numbers:-"+(a*b*c));
 }
 }
+
+                                                   //MATH
 
 public class Test {
 public static void main(String[]args) {
@@ -44,7 +46,28 @@ public static void main(String[]args) {
 }
 }
 
-name,id,dept
+                                           //SCAN NAME,ID,DEPT
+
+import java.util.Scanner;
+public class test {
+    public static void main(String[]args)
+    {
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter name: ");
+        String a= input.next();
+        System.out.println("Enter age: ");
+        int b= input.nextInt();
+        System.out.println("Enter cgpa: ");
+        double c= input.nextDouble();
+        System.out.println("Enter dept: ");
+        String d= input.nextLine();
+        System.out.println("Name: "+a);
+        System.out.println("age: "+b);
+        System.out.println("cgpa: "+c);
+        System.out.println("dept: "+d);
+
+    }
+}
 
 
 import java.util.Scanner;
