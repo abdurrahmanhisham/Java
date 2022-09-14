@@ -25,22 +25,22 @@ public static void main(String[]args) {
 }
 
 import java.util.Scanner;
-public class test {
-    public static void main(String[]args)
-    {
-        Scanner input=new Scanner(System.in);
-        System.out.println("Enter name: ");
-        String a= input.next();
-        System.out.println("Enter age: ");
-        int b= input.nextInt();
-        System.out.println("Enter cgpa: ");
-        double c= input.nextDouble();
-        System.out.println("Enter dept: ");
-        String d= input.nextLine();
-        System.out.println("Name: "+a);
-        System.out.println("age: "+b);
-        System.out.println("cgpa: "+c);
-        System.out.println("dept: "+d);
-
-    }
+public class Test{
+	public static void main(String[]args) {
+		Scanner input=new Scanner(System.in);
+		System.out.println("Enter name: ");
+		String a= input.next();
+		System.out.println("Enter age: ");
+		int b= input.nextInt();
+		System.out.println("Enter cgpa: ");
+		double c=input.nextDouble();
+		System.out.println("Enter dept: ");
+		String d=input.next();
+		System.out.println("name= "+a);
+		System.out.println("age= "+b);
+		System.out.println("cgpa= "+c);
+		System.out.println("dept= "+d);
+		
+	}
 }
+
