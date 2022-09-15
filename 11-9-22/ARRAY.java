@@ -21,8 +21,6 @@ public class Test {
 }
 
 
-
-
                                         //ARRAY INITIALIZE WITHOUT SIZE
 
 public class test {
