@@ -1,7 +1,7 @@
 public class test {
     public static void main(String[]args){
         person myObj=new person();
-        myObj.setInfo("Shibly",123);
+        myObj.setInfo("Hisham",123);
         System.out.println("Name: "+myObj.getName());
         System.out.println("Name: "+myObj.getId());
     }
