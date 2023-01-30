@@ -231,3 +231,30 @@ class cseTeacher extends teacher{
         obj.job();
     }
 }
+/*
+#include<stdio.h>
+void aaa(int n){
+    if(n%2)
+    printf("odd\n");
+    else
+    printf("even\n");
+}
+    int main(){
+        int a;
+        scanf("%d",&a);
+        aaa(a);
+}
+*/
+#include<stdio.h>
+int sum(int n){
+    int sum=0;
+    for(int i=0;i<=n;i++){
+        sum+=i;
+    }
+    return sum;
+}
+int main(){
+    int n;
+    scanf("%d",&n);
+    printf("%d",sum(n));
+}
